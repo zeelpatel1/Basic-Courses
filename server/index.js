@@ -13,7 +13,6 @@ app.use(cors({
 }))
 
 app.use('/api/auth',authRoute)
-// app.use('/api/admin')
 app.use('/api/users',courseRoute)
 app.use('/api',userRoute)
 
